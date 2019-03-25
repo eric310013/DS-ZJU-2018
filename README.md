@@ -1,4 +1,4 @@
-# DS-ZJU-2018
+# dsa-zju
 
 Problems of Data Structure MOOC of Zhejiang University
 
