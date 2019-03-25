@@ -5,7 +5,7 @@
 单位: 浙江大学</br>
 时间限制: 400 ms</br>
 内存限制: 64 MB</br>
-代码长度限制: 16 KB</br>
+代码长度限制: 16 KB
 
 An AVL tree is a self-balancing binary search tree. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this property. Figures 1-4 illustrate the rotation rules.
 

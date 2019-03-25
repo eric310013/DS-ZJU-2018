@@ -4,7 +4,7 @@
 单位: 浙江大学</br>
 时间限制: 150 ms</br>
 内存限制: 64 MB</br>
-代码长度限制: 16 KB</br>
+代码长度限制: 16 KB
 
 We have a network of computers and a list of bi-directional connections. Each of these connections allows a file transfer from one computer to another. Is it possible to send a file from any computer on the network to any other?
 

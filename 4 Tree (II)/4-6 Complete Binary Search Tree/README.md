@@ -5,7 +5,7 @@
 单位: 浙江大学</br>
 时间限制: 400 ms</br>
 内存限制: 64 MB</br>
-代码长度限制: 16 KB</br>
+代码长度限制: 16 KB
 
 A Binary Search Tree (BST) is recursively defined as a binary tree which has the following properties:
 
