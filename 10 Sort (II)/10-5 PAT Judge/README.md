@@ -1,16 +1,16 @@
 # 10-排序5 PAT Judge （25 分)
 
->作者: 陈越</br>
-单位: 浙江大学</br>
-时间限制: 400 ms</br>
-内存限制: 64 MB</br>
+时间限制: 400 ms
+
+内存限制: 64 MB
+
 代码长度限制: 16 KB
 
 The ranklist of PAT is generated from the status list, which shows the scores of the submissions. This time you are supposed to generate the ranklist for PAT.
 
 ## Input Specification
 
-Each input file contains one test case. For each case, the first line contains 3 positive integers, N(${\le}10^4$), the total number of users, K (${\le}5$), the total number of problems, and M (${\le}10^5$), the total number of submissions. It is then assumed that the user id's are 5-digit numbers from 00001 to N, and the problem id's are from 1 to K. The next line contains K positive integers `p[i]` (i=1, ..., K), where `p[i]` corresponds to the full mark of the i-th problem. Then M lines follow, each gives the information of a submission in the following format:
+Each input file contains one test case. For each case, the first line contains 3 positive integers, N($${\le}10^4$$), the total number of users, K ($${\le}5$$), the total number of problems, and M ($${\le}10^5$$), the total number of submissions. It is then assumed that the user id's are 5-digit numbers from 00001 to N, and the problem id's are from 1 to K. The next line contains K positive integers `p[i]` (i=1, ..., K), where `p[i]` corresponds to the full mark of the i-th problem. Then M lines follow, each gives the information of a submission in the following format:
 
 ```
 user_id problem_id partial_score_obtained

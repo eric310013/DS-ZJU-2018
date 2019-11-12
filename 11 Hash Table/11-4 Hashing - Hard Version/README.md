@@ -1,12 +1,12 @@
 # 11-散列4 Hashing - Hard Version （30 分)
 
->作者: 何钦铭</br>
-单位: 浙江大学</br>
-时间限制: 400 ms</br>
-内存限制: 64 MB</br>
+时间限制: 400 ms
+
+内存限制: 64 MB
+
 代码长度限制: 16 KB
 
-Given a hash table of size N, we can define a hash function $H(x)=x\%N$. Suppose that the linear probing is used to solve collisions, we can easily obtain the status of the hash table with a given sequence of input numbers.
+Given a hash table of size N, we can define a hash function $$H(x)=x\%N$$. Suppose that the linear probing is used to solve collisions, we can easily obtain the status of the hash table with a given sequence of input numbers.
 
 However, now you are asked to solve the reversed problem: reconstruct the input sequence from the given status of the hash table. Whenever there are multiple choices, the smallest number is always taken.
 

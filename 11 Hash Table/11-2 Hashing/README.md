@@ -1,9 +1,9 @@
 # 11-散列2 Hashing （25 分）
 
->作者: 陈越</br>
-单位: 浙江大学</br>
-时间限制: 400 ms</br>
-内存限制: 64 MB</br>
+时间限制: 400 ms
+
+内存限制: 64 MB
+
 代码长度限制: 16 KB
 
 The task of this problem is simple: insert a sequence of distinct positive integers into a hash table, and output the positions of the input numbers. The hash function is defined to be H(key)=key%TSize where TSize is the maximum size of the hash table. Quadratic probing (with positive increments only) is used to solve the collisions.
@@ -34,7 +34,7 @@ For each test case, print the corresponding positions (index starts from 0) of t
 
 |测试点|提示|结果|耗时|内存|
 |:---|:---|:---|:---|:---|
-0|sample，有无法插入的|答案正确|3 ms|512KB
-1|最小值|答案正确|2 ms|384KB
-2|最大MSize，测试插入边界|答案正确|3 ms|384KB
-3|最大随机|答案正确|8 ms|404KB
+|0|sample，有无法插入的|答案正确|3 ms|512KB|
+|1|最小值|答案正确|2 ms|384KB|
+|2|最大MSize，测试插入边界|答案正确|3 ms|384KB|
+|3|最大随机|答案正确|8 ms|404KB|

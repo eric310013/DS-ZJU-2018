@@ -1,9 +1,9 @@
 # 09-排序2 Insert or Merge （25 分)
 
->作者: 陈越</br>
-单位: 浙江大学</br>
-时间限制: 400 ms</br>
-内存限制: 64 MB</br>
+时间限制: 400 ms
+
+内存限制: 64 MB
+
 代码长度限制: 16 KB
 
 According to Wikipedia:

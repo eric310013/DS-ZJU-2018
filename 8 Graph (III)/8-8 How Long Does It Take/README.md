@@ -1,9 +1,9 @@
 # 08-图8 How Long Does It Take （25 分)
 
->作者: 陈越</br>
-单位: 浙江大学</br>
-时间限制: 400 ms</br>
-内存限制: 64 MB</br>
+时间限制: 400 ms
+
+内存限制: 64 MB
+
 代码长度限制: 16 KB
 
 Given the relations of all the activities of a project, you are supposed to find the earliest completion time of the project.

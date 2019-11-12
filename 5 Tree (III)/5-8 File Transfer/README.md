@@ -1,9 +1,9 @@
 # 05-树8 File Transfer （25 分）
 
->作者: 陈越</br>
-单位: 浙江大学</br>
-时间限制: 150 ms</br>
-内存限制: 64 MB</br>
+时间限制: 150 ms
+
+内存限制: 64 MB
+
 代码长度限制: 16 KB
 
 We have a network of computers and a list of bi-directional connections. Each of these connections allows a file transfer from one computer to another. Is it possible to send a file from any computer on the network to any other?
@@ -84,10 +84,10 @@ The network is connected.
 
 |测试点|提示|结果|耗时|内存|
 |:---|:---|:---|:---|:---|
-0|sample 1 合并2个集合，最后不连通|答案正确|3 ms|256KB
-1|sample 2 最后连通|答案正确|3 ms|384KB
-2|最小N，无连通操作|答案正确|3 ms|384KB
-3|最大N，无操作|答案正确|3 ms|384KB
-4|最大N，递增链，卡不按大小union的|答案正确|14 ms|512KB
-5|最大N，递减链，卡不按大小union的|答案正确|15 ms|404KB
-6|最大N，两两合并，反复查最深结点，卡不压缩路径的|答案正确|15 ms|384KB
+|0|sample 1 合并2个集合，最后不连通|答案正确|3 ms|256KB|
+|1|sample 2 最后连通|答案正确|3 ms|384KB|
+|2|最小N，无连通操作|答案正确|3 ms|384KB|
+|3|最大N，无操作|答案正确|3 ms|384KB|
+|4|最大N，递增链，卡不按大小union的|答案正确|14 ms|512KB|
+|5|最大N，递减链，卡不按大小union的|答案正确|15 ms|404KB|
+|6|最大N，两两合并，反复查最深结点，卡不压缩路径的|答案正确|15 ms|384KB|

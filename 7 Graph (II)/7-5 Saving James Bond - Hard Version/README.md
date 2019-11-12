@@ -1,9 +1,9 @@
 # 07-图5 Saving James Bond - Hard Version （30 分)
 
->作者: 陈越</br>
-单位: 浙江大学</br>
-时间限制: 400 ms</br>
-内存限制: 64 MB</br>
+时间限制: 400 ms
+
+内存限制: 64 MB
+
 代码长度限制: 16 KB
 
 This time let us consider the situation in the movie "Live and Let Die" in which James Bond, the world's most famous spy, was captured by a group of drug dealers. He was sent to a small piece of land at the center of a lake filled with crocodiles. There he performed the most daring action to escape -- he jumped onto the head of the nearest crocodile! Before the animal realized what was happening, James jumped again onto the next big head... Finally he reached the bank before the last crocodile could bite him (actually the stunt man was caught by the big mouth and barely escaped with his extra thick boot).
@@ -12,11 +12,11 @@ Assume that the lake is a 100 by 100 square one. Assume that the center of the l
 
 ## Input Specification
 
-Each input file contains one test case. Each case starts with a line containing two positive integers N (≤100), the number of crocodiles, and D, the maximum distance that James could jump. Then N lines follow, each containing the $(x,y)$ location of a crocodile. Note that no two crocodiles are staying at the same position.
+Each input file contains one test case. Each case starts with a line containing two positive integers N (≤100), the number of crocodiles, and D, the maximum distance that James could jump. Then N lines follow, each containing the $$(x,y)$$ location of a crocodile. Note that no two crocodiles are staying at the same position.
 
 ## Output Specification
 
-For each test case, if James can escape, output in one line the minimum number of jumps he must make. Then starting from the next line, output the position $(x,y)$ of each crocodile on the path, each pair in one line, from the island to the bank. If it is impossible for James to escape that way, simply give him 0 as the number of jumps. If there are many shortest paths, just output the one with the minimum first jump, which is guaranteed to be unique.
+For each test case, if James can escape, output in one line the minimum number of jumps he must make. Then starting from the next line, output the position $$(x,y)$$ of each crocodile on the path, each pair in one line, from the island to the bank. If it is impossible for James to escape that way, simply give him 0 as the number of jumps. If there are many shortest paths, just output the one with the minimum first jump, which is guaranteed to be unique.
 
 ## Sample Input 1
 
