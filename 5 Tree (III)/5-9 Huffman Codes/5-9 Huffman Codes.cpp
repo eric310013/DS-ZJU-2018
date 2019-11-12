@@ -16,6 +16,7 @@
 
 using namespace std;
 
+// huffman node struct
 struct node
 {
 	node* left = NULL;
@@ -26,11 +27,13 @@ struct node
 	string code;
 };
 
+// student submit struct
 struct submit
 {
 	vector<node> list;
 };
 
+// compare nodes by freq
 struct nodecmp
 {
 	bool operator()(node const* a, node const* b)
@@ -39,14 +42,16 @@ struct nodecmp
 	}
 };
 
-priority_queue<node*, vector<node*>, nodecmp> Q;
-int WPL = 0;
+priority_queue<node*, vector<node*>, nodecmp> Q;	// heap
+int WPL = 0;	// weighted path length
 
+// compare nodes by code length
 bool codecmp(node a, node b)
 {
 	return a.code.length() > b.code.length();
 }
 
+// create the standard huffman tree
 node* create_huffman(int N, vector<node> temp)
 {
 	for (int i = 0; i < N; i++)
@@ -72,6 +77,7 @@ node* create_huffman(int N, vector<node> temp)
 	return p;
 }
 
+// calculate WPL
 void huffman_wpl(node* p)
 {
 	if (p != NULL)
@@ -85,6 +91,7 @@ void huffman_wpl(node* p)
 	}
 }
 
+// judge
 bool is_huffman(int N, submit s)
 {
 	sort(&s.list[0], &s.list[0] + N, codecmp);
@@ -136,7 +143,7 @@ int main()
 			getline(cin, result[i].list[j].code);
 		}
 	}
-
+	// judge
 	for (int i = 0; i < M; i++) 
 	{
 		if (is_huffman(N, result[i]))
@@ -146,7 +153,6 @@ int main()
 		if (i < M - 1)
 			printf("\n");
 	}
-
 	return 0;
 }
 
