@@ -98,7 +98,7 @@ bool is_huffman(int N, submit s)
 	int len = 0;
 	for (int i = 0; i < N; i++)
 	{
-		// prefix encoding
+		// prefix encoding check
 		for (int j = i + 1; j < N; j++)
 		{
 			if (s.list[i].code.find(s.list[j].code) == 0)
